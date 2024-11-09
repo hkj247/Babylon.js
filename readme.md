@@ -73,7 +73,7 @@ var canvas = document.getElementById('renderCanvas');
 var engine = new BABYLON.Engine(canvas, true, {preserveDrawingBuffer: true, stencil: true});
 // CreateScene function that creates and return the scene
 var createScene = function(){
-    // Create a basic BJS Scene object
+    // Create a basic BJS Scene objects
     var scene = new BABYLON.Scene(engine);
     // Create a FreeCamera, and set its position to {x: 0, y: 5, z: -10}
     var camera = new BABYLON.FreeCamera('camera1', new BABYLON.Vector3(0, 5, -10), scene);
